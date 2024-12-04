@@ -1,0 +1,42 @@
+/* Basic reset for margin and padding */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Full height for the map and body */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Styling for the legend */
+.legend {
+  background-color: white;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  line-height: 18px;
+  color: #555;
+}
+
+/* Styling for the legend heading */
+.legend h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the color boxes in the legend */
+.legend i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
